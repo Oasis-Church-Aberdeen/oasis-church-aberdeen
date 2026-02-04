@@ -165,15 +165,15 @@ Summary required:
 
 ### 2.1 Sermons Page (`sermons.html`)
 
-- [ ] **2.1.1** Create page with consistent header/footer
-- [ ] **2.1.2** Build hero section with page title
-- [ ] **2.1.3** Create sermon card component (thumbnail, title, date, series, speaker)
-- [ ] **2.1.4** Build sermon grid layout (responsive 3-col → 2-col → 1-col)
-- [ ] **2.1.5** Add mock sermon data (6-8 sermons with realistic titles/series)
-- [ ] **2.1.6** Add series filter/category tabs (JavaScript)
-- [ ] **2.1.7** Create sermon detail modal or embed YouTube player
-- [ ] **2.1.8** Handle empty state ("No sermons found")
-- [ ] **2.1.9** Add "Latest Sermon" featured section at top
+- [x] **2.1.1** Create page with consistent header/footer
+- [x] **2.1.2** Build hero section with page title
+- [x] **2.1.3** Create sermon card component (thumbnail, title, date, series, speaker)
+- [x] **2.1.4** Build sermon grid layout (responsive 3-col → 2-col → 1-col)
+- [x] **2.1.5** Add mock sermon data (6-8 sermons with realistic titles/series)
+- [x] **2.1.6** Add series filter/category tabs (JavaScript)
+- [x] **2.1.7** Create sermon detail modal or embed YouTube player
+- [x] **2.1.8** Handle empty state ("No sermons found")
+- [x] **2.1.9** Add "Latest Sermon" featured section at top
 
 **Validation:** Grid displays correctly; filter works; YouTube embeds play
 
@@ -195,12 +195,12 @@ Summary required:
 
 ### 2.3 Beliefs Page (`beliefs.html`)
 
-- [ ] **2.3.1** Create page with consistent header/footer
-- [ ] **2.3.2** Build hero section with page title
-- [ ] **2.3.3** Add "What We Believe" intro paragraph
-- [ ] **2.3.4** Create expandable/collapsible statement sections (or simple list)
-- [ ] **2.3.5** Add core doctrines content (Bible, God, Jesus, Salvation, Church, etc.)
-- [ ] **2.3.6** Style for readability (good typography, spacing)
+- [x] **2.3.1** Create page with consistent header/footer
+- [x] **2.3.2** Build hero section with page title
+- [x] **2.3.3** Add "What We Believe" intro paragraph
+- [x] **2.3.4** Create expandable/collapsible statement sections (or simple list)
+- [x] **2.3.5** Add core doctrines content (Bible, God, Jesus, Salvation, Church, etc.)
+- [x] **2.3.6** Style for readability (good typography, spacing)
 
 **Validation:** Page renders correctly; content is readable; accessible
 
@@ -281,13 +281,13 @@ Summary required:
 
 ### 3.3 Giving Page (`giving.html`)
 
-- [ ] **3.3.1** Create page with consistent header/footer
-- [ ] **3.3.2** Build hero section with page title
-- [ ] **3.3.3** Add "Why We Give" section with intro content
-- [ ] **3.3.4** Add giving options section (online, bank transfer, in-person)
-- [ ] **3.3.5** Add bank details section (with copy-to-clipboard functionality)
-- [ ] **3.3.6** Add Gift Aid information (UK tax relief)
-- [ ] **3.3.7** Add external donation link/button (if applicable)
+- [x] **3.3.1** Create page with consistent header/footer
+- [x] **3.3.2** Build hero section with page title
+- [x] **3.3.3** Add "Why We Give" section with intro content
+- [x] **3.3.4** Add giving options section (online, bank transfer, in-person)
+- [x] **3.3.5** Add bank details section (with copy-to-clipboard functionality)
+- [x] **3.3.6** Add Gift Aid information (UK tax relief)
+- [x] **3.3.7** Add external donation link/button (if applicable)
 
 **Validation:** Page renders correctly; bank details display; links work
 
@@ -295,13 +295,13 @@ Summary required:
 
 ### 3.4 Facility Hire Page (`facility-hire.html`)
 
-- [ ] **3.4.1** Create page with consistent header/footer
-- [ ] **3.4.2** Build hero section with page title
-- [ ] **3.4.3** Add room/space descriptions with photos
-- [ ] **3.4.4** Add pricing information (or "Contact for pricing")
-- [ ] **3.4.5** Add availability/booking information
-- [ ] **3.4.6** Create enquiry form (name, email, phone, event type, date, message)
-- [ ] **3.4.7** Add form with Netlify Forms integration
+- [x] **3.4.1** Create page with consistent header/footer
+- [x] **3.4.2** Build hero section with page title
+- [x] **3.4.3** Add room/space descriptions with photos
+- [x] **3.4.4** Add pricing information (or "Contact for pricing")
+- [x] **3.4.5** Add availability/booking information
+- [x] **3.4.6** Create enquiry form (name, email, phone, event type, date, message)
+- [x] **3.4.7** Add form with Netlify Forms integration
 
 **Validation:** Room info clear; form submits correctly; responsive
 
@@ -378,13 +378,13 @@ Summary required:
 
 ### 4.4 Podcasts Page (`podcasts.html`)
 
-- [ ] **4.4.1** Create page with consistent header/footer
-- [ ] **4.4.2** Build hero section with page title
-- [ ] **4.4.3** Add intro section explaining curated recommendations
-- [ ] **4.4.4** Create podcast card component (image, title, host, description, link)
-- [ ] **4.4.5** Build podcast grid layout
-- [ ] **4.4.6** Add mock podcast data (8-10 curated recommendations)
-- [ ] **4.4.7** Add external links to podcast platforms
+- [x] **4.4.1** Create page with consistent header/footer
+- [x] **4.4.2** Build hero section with page title
+- [x] **4.4.3** Add intro section explaining curated recommendations
+- [x] **4.4.4** Create podcast card component (image, title, host, description, link)
+- [x] **4.4.5** Build podcast grid layout
+- [x] **4.4.6** Add mock podcast data (8-10 curated recommendations)
+- [x] **4.4.7** Add external links to podcast platforms
 
 **Validation:** Page renders correctly; links work; responsive grid
 
@@ -392,12 +392,12 @@ Summary required:
 
 ### 4.5 Resources Page (`resources.html`)
 
-- [ ] **4.5.1** Create page with consistent header/footer
-- [ ] **4.5.2** Build hero section with page title
-- [ ] **4.5.3** Add resource categories (books, articles, videos, tools)
-- [ ] **4.5.4** Create resource card component (title, type, description, link)
-- [ ] **4.5.5** Build resource list/grid layout
-- [ ] **4.5.6** Add mock resource data (10-12 items across categories)
+- [x] **4.5.1** Create page with consistent header/footer
+- [x] **4.5.2** Build hero section with page title
+- [x] **4.5.3** Add resource categories (books, articles, videos, tools)
+- [x] **4.5.4** Create resource card component (title, type, description, link)
+- [x] **4.5.5** Build resource list/grid layout
+- [x] **4.5.6** Add mock resource data (10-12 items across categories)
 
 **Validation:** Page renders correctly; external links work; categories clear
 
@@ -405,11 +405,11 @@ Summary required:
 
 ### 4.6 Blog Page (`blog.html`)
 
-- [ ] **4.6.1** Create page with consistent header/footer
-- [ ] **4.6.2** Build hero section with page title
-- [ ] **4.6.3** Create blog post card component (featured image, title, date, excerpt)
-- [ ] **4.6.4** Build blog post grid/list layout
-- [ ] **4.6.5** Add mock blog post data (4 posts)
+- [x] **4.6.1** Create page with consistent header/footer
+- [x] **4.6.2** Build hero section with page title
+- [x] **4.6.3** Create blog post card component (featured image, title, date, excerpt)
+- [x] **4.6.4** Build blog post grid/list layout
+- [x] **4.6.5** Add mock blog post data (4 posts)
 - [ ] **4.6.6** Create individual blog post template (if using CMS-generated pages)
 - [ ] **4.6.7** Add pagination or "Load More" (if needed)
 - [ ] **4.6.8** Integrate with CMS blog collection
