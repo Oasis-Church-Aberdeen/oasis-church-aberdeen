@@ -1061,7 +1061,7 @@
       sermonId: "2026-02-02-hope-series",
       sermonTitle: "Finding Hope in Uncertain Times",
       sermonDate: "2 February 2026",
-      sermonSpeaker: "Pastor James Wilson",
+      sermonSpeaker: "Pastor Will Hanekom",
       sermonSeries: "Living with Hope",
       memoryVerse: {
         text: "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
