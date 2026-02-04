@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="New to Oasis Church Aberdeen? Find out what to expect on your first visit. We'd love to welcome you!">
+  <meta name="keywords" content="new to church, first visit, Aberdeen church, what to expect, visitor information">
+  <meta name="author" content="Oasis Church Aberdeen">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://oasischurchaberdeen.org/new-here.html">
+  <meta property="og:title" content="New Here? - Oasis Church Aberdeen">
+  <meta property="og:description" content="Find out what to expect on your first visit to Oasis Church Aberdeen. We'd love to welcome you!">
+  <meta property="og:image" content="images/og-image.jpg">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="New Here? - Oasis Church Aberdeen">
+  <meta name="twitter:description" content="Find out what to expect on your first visit to Oasis Church Aberdeen.">
+  
+  <title>New Here? - Oasis Church Aberdeen</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip to main content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__container">
+      <a href="index.html" class="header__logo" aria-label="Oasis Church Aberdeen - Home">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 8 L20 32 M12 20 L28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <span class="header__logo-text">Oasis Church</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item--dropdown">
+            <a href="about.html" class="nav__link">About</a>
+            <ul class="nav__dropdown">
+              <li><a href="about.html" class="nav__dropdown-link">Our Story</a></li>
+              <li><a href="beliefs.html" class="nav__dropdown-link">What We Believe</a></li>
+              <li><a href="about.html#team" class="nav__dropdown-link">Leadership Team</a></li>
+              <li><a href="about.html#vision" class="nav__dropdown-link">Our Vision</a></li>
+            </ul>
+          </li>
+          <li><a href="sundays.html" class="nav__link">Sundays</a></li>
+          <li class="nav__item--dropdown">
+            <a href="sermons.html" class="nav__link">Sermons</a>
+            <ul class="nav__dropdown">
+              <li><a href="sermons.html" class="nav__dropdown-link">Watch & Listen</a></li>
+              <li><a href="sermon-games.html" class="nav__dropdown-link">Sermon Games</a></li>
+              <li><a href="podcasts.html" class="nav__dropdown-link">Podcasts</a></li>
+            </ul>
+          </li>
+          <li class="nav__item--dropdown">
+            <a href="new-here.html" class="nav__link nav__link--active">Connect</a>
+            <ul class="nav__dropdown">
+              <li><a href="new-here.html" class="nav__dropdown-link">I'm New Here</a></li>
+              <li><a href="connect-groups.html" class="nav__dropdown-link">Connect Groups</a></li>
+              <li><a href="children-youth.html" class="nav__dropdown-link">Children & Youth</a></li>
+              <li><a href="calendar.html" class="nav__dropdown-link">Events Calendar</a></li>
+            </ul>
+          </li>
+          <li><a href="giving.html" class="nav__link">Give</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="new-here.html" class="btn btn--primary">I'm New</a>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Mobile navigation" aria-hidden="true">
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a href="index.html" class="mobile-nav__link">Home</a>
+      </li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">About</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="about.html" class="mobile-nav__dropdown-link">Our Story</a></li>
+          <li><a href="beliefs.html" class="mobile-nav__dropdown-link">What We Believe</a></li>
+          <li><a href="about.html#team" class="mobile-nav__dropdown-link">Leadership Team</a></li>
+          <li><a href="about.html#vision" class="mobile-nav__dropdown-link">Our Vision</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="sundays.html" class="mobile-nav__link">Sundays</a>
+      </li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">Sermons</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="sermons.html" class="mobile-nav__dropdown-link">Watch & Listen</a></li>
+          <li><a href="sermon-games.html" class="mobile-nav__dropdown-link">Sermon Games</a></li>
+          <li><a href="podcasts.html" class="mobile-nav__dropdown-link">Podcasts</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link mobile-nav__link--active">Connect</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="new-here.html" class="mobile-nav__dropdown-link">I'm New Here</a></li>
+          <li><a href="connect-groups.html" class="mobile-nav__dropdown-link">Connect Groups</a></li>
+          <li><a href="children-youth.html" class="mobile-nav__dropdown-link">Children & Youth</a></li>
+          <li><a href="calendar.html" class="mobile-nav__dropdown-link">Events Calendar</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="giving.html" class="mobile-nav__link">Give</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="contact.html" class="mobile-nav__link">Contact</a>
+      </li>
+    </ul>
+    <div class="mobile-nav__cta">
+      <a href="new-here.html" class="btn btn--primary btn--full">I'm New Here</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero hero--full">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80" alt="" class="hero__background" loading="eager">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">You Belong Here</h1>
+        <p class="hero__subtitle">Whether you're exploring faith for the first time or looking for a new church home, we'd love to welcome you.</p>
+        <div class="hero__cta">
+          <a href="#plan-visit" class="btn btn--secondary btn--lg">Plan Your Visit</a>
+          <a href="#what-to-expect" class="btn btn--outline-light btn--lg">What to Expect</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What to Expect Timeline Section -->
+    <section class="section" id="what-to-expect">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">What to Expect</h2>
+          <p class="section-header__subtitle">Here's what a typical Sunday looks like at Oasis Church</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">1. Arrive</h3>
+              <p>Doors open at 10:15am. There's free parking on-site, and you can enter through the main doors where you'll be greeted with a warm welcome.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">2. Welcome</h3>
+              <p>Our friendly welcome team will greet you at the door, help you find a seat, and show you where everything is. Just let them know it's your first time!</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">3. Refreshments</h3>
+              <p>Grab a free tea or coffee before the service starts. It's a great chance to meet people and settle in before we begin.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">4. Worship</h3>
+              <p>We start with contemporary worship music—about 20-30 minutes of singing together. Feel free to join in or simply listen and reflect.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">5. Message</h3>
+              <p>One of our pastors shares a practical, Bible-based message for about 30-40 minutes. We aim to make it relevant to everyday life.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">6. Connect</h3>
+              <p>After the service, stick around for more refreshments and conversation. We'd love to meet you and answer any questions you might have.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Info Cards Section -->
+    <section class="section bg-neutral">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Good to Know</h2>
+          <p class="section-header__subtitle">A few things that might be helpful before your visit</p>
+        </div>
+
+        <div class="grid-4">
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Kids Welcome</h3>
+            <p class="info-card__text">We have programs for all ages. Check in at the welcome desk and we'll take great care of your little ones.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Free Parking</h3>
+            <p class="info-card__text">Plenty of free parking available on-site. Just follow the signs when you arrive.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 8v8"></path>
+                <path d="M8 12h8"></path>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Accessibility</h3>
+            <p class="info-card__text">Our building is wheelchair accessible with a hearing loop system available. Just ask if you need assistance.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Refreshments</h3>
+            <p class="info-card__text">Free tea and coffee available before and after the service. It's on us!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Times & Location Section -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <h2>Service Times & Location</h2>
+            <p class="mb-lg">We meet every Sunday at 10:30am. The service typically lasts about 90 minutes, and there's always time to chat afterwards.</p>
+            
+            <div class="location-details">
+              <div class="location-details__item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <strong>Address</strong><br>
+                  Laverockbraes<br>
+                  Whitestripes Road<br>
+                  Bridge of Don, Aberdeen AB22 8AW
+                </div>
+              </div>
+              <div class="location-details__item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <div>
+                  <strong>Service Time</strong><br>
+                  Sundays at 10:30am<br>
+                  Doors open at 10:15am
+                </div>
+              </div>
+              <div class="location-details__item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+                <div>
+                  <strong>Getting Here by Bus</strong><br>
+                  Bus routes 1, 2, and 3 stop nearby<br>
+                  on Whitestripes Road
+                </div>
+              </div>
+            </div>
+
+            <a href="https://maps.google.com/?q=Laverockbraes+Whitestripes+Road+Bridge+of+Don+Aberdeen+AB22+8AW" class="btn btn--outline mt-lg" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2162.8!2d-2.0947!3d57.1897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488411f8a7b8b8b9%3A0x1234567890abcdef!2sWhitestripes%20Road%2C%20Bridge%20of%20Don%2C%20Aberdeen%20AB22%208AW!5e0!3m2!1sen!2suk!4v1707000000000"
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Oasis Church Aberdeen location map - Laverockbraes, Whitestripes Road, Bridge of Don">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-neutral">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Common Questions</h2>
+          <p class="section-header__subtitle">Answers to questions first-time visitors often ask</p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="accordion" role="region" aria-label="Frequently Asked Questions">
+            
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-wear" id="faq-wear-header">
+                <span class="accordion__title">What should I wear?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-wear" role="region" aria-labelledby="faq-wear-header">
+                <div class="accordion__body">
+                  <p>Come as you are! You'll see everything from jeans and trainers to smart casual. There's no dress code—we just want you to feel comfortable.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-kids" id="faq-kids-header">
+                <span class="accordion__title">What about my kids?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-kids" role="region" aria-labelledby="faq-kids-header">
+                <div class="accordion__body">
+                  <p>We love kids! We have age-appropriate programs during the service for children from babies through to teenagers. Just check in at the welcome desk when you arrive, and our team will show you where to go. All our volunteers are DBS checked.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-parking" id="faq-parking-header">
+                <span class="accordion__title">Is there parking?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-parking" role="region" aria-labelledby="faq-parking-header">
+                <div class="accordion__body">
+                  <p>Yes! We have a free car park on-site with plenty of spaces. There's also street parking nearby if needed. Disabled parking spaces are available close to the main entrance.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-long" id="faq-long-header">
+                <span class="accordion__title">How long is the service?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-long" role="region" aria-labelledby="faq-long-header">
+                <div class="accordion__body">
+                  <p>Our Sunday service is typically about 90 minutes, including worship and the message. We usually finish around 12:00pm, but you're welcome to stay longer for refreshments and conversation.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-bring" id="faq-bring-header">
+                <span class="accordion__title">Do I need to bring anything?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-bring" role="region" aria-labelledby="faq-bring-header">
+                <div class="accordion__body">
+                  <p>Just yourself! We provide everything you need. Bible verses are displayed on screen, and we have Bibles available if you'd like to follow along. There's no offering plate passed around—giving is completely optional and done discreetly.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-spot" id="faq-spot-header">
+                <span class="accordion__title">Will I be put on the spot?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-spot" role="region" aria-labelledby="faq-spot-header">
+                <div class="accordion__body">
+                  <p>Absolutely not! We won't ask you to stand up, introduce yourself, or do anything that might make you uncomfortable. You can participate as much or as little as you like. We're just glad you're here.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" aria-expanded="false" aria-controls="faq-watch" id="faq-watch-header">
+                <span class="accordion__title">Can I just watch and not participate?</span>
+                <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="accordion__content" id="faq-watch" role="region" aria-labelledby="faq-watch-header">
+                <div class="accordion__body">
+                  <p>Of course! Many people prefer to observe on their first visit. Feel free to sit back, take it all in, and engage at your own pace. There's no pressure to sing, stand, or do anything you're not comfortable with.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan Your Visit Form Section -->
+    <section class="section" id="plan-visit">
+      <div class="container">
+        <div class="grid-2">
+          <div>
+            <h2>Plan Your Visit</h2>
+            <p class="mb-lg">Let us know you're coming and we'll make sure to give you a warm welcome. No obligation—just a heads up so we can look out for you!</p>
+            
+            <div class="visit-benefits">
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Reserved parking spot</span>
+              </div>
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Personal welcome at the door</span>
+              </div>
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Free welcome gift</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-container">
+            <form name="plan-visit" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+              <input type="hidden" name="form-name" value="plan-visit">
+              <p class="form__honeypot">
+                <label>Don't fill this out: <input name="bot-field"></label>
+              </p>
+
+              <div class="form__group">
+                <label for="name" class="form__label form__label--required">Name</label>
+                <input type="text" id="name" name="name" class="form__input" required placeholder="Your name">
+              </div>
+
+              <div class="form__group">
+                <label for="email" class="form__label form__label--required">Email</label>
+                <input type="email" id="email" name="email" class="form__input" required placeholder="your@email.com">
+              </div>
+
+              <div class="form__group">
+                <label for="phone" class="form__label">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone" class="form__input" placeholder="Your phone number">
+              </div>
+
+              <div class="form__group">
+                <label for="visit-date" class="form__label">Planning to visit on (optional)</label>
+                <input type="date" id="visit-date" name="visit-date" class="form__input">
+              </div>
+
+              <div class="form__group">
+                <label for="questions" class="form__label">Any questions? (optional)</label>
+                <textarea id="questions" name="questions" class="form__textarea" rows="3" placeholder="Anything you'd like to know before your visit?"></textarea>
+              </div>
+
+              <div class="form__group">
+                <label for="hear-about" class="form__label">How did you hear about us? (optional)</label>
+                <select id="hear-about" name="hear-about" class="form__select">
+                  <option value="">Please select...</option>
+                  <option value="google">Google search</option>
+                  <option value="social-media">Social media</option>
+                  <option value="friend-family">Friend or family</option>
+                  <option value="drove-past">Drove/walked past</option>
+                  <option value="event">Community event</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">Let Us Know You're Coming</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Community Section -->
+    <section class="section bg-primary text-white text-center">
+      <div class="container">
+        <h2 style="color: var(--color-white);">Join Our WhatsApp Community</h2>
+        <p class="cta-text mb-xl">Stay connected with what's happening at Oasis Church. Get updates, prayer requests, and connect with others in our community.</p>
+        <a href="https://wa.me/441234567890?text=Hi!%20I'm%20interested%20in%20joining%20the%20Oasis%20Church%20community" class="btn btn--outline-light btn--lg" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="margin-right: 8px;">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Join WhatsApp Community
+        </a>
+      </div>
+    </section>
+
+    <!-- Have Questions CTA -->
+    <section class="section text-center">
+      <div class="container">
+        <h2>Have Questions?</h2>
+        <p class="cta-text mb-xl" style="color: var(--color-text-light);">We'd love to hear from you. Whether you have questions about faith, the church, or just want to chat—we're here for you.</p>
+        <a href="contact.html" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">
+              <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 8 L20 32 M12 20 L28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <span>Oasis Church</span>
+          </a>
+          <p class="footer__description">A welcoming community of Christ-followers in Aberdeen, Scotland. Join us as we grow together in faith, hope, and love.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://youtube.com" class="footer__social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="sundays.html" class="footer__link">Sundays</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+            <li><a href="calendar.html" class="footer__link">Events</a></li>
+            <li><a href="giving.html" class="footer__link">Giving</a></li>
+          </ul>
+        </div>
+
+        <!-- Get Involved -->
+        <div>
+          <h4 class="footer__heading">Get Involved</h4>
+          <ul class="footer__links">
+            <li><a href="connect-groups.html" class="footer__link">Connect Groups</a></li>
+            <li><a href="children-youth.html" class="footer__link">Children & Youth</a></li>
+            <li><a href="partner.html" class="footer__link">Volunteer</a></li>
+            <li><a href="facility-hire.html" class="footer__link">Facility Hire</a></li>
+            <li><a href="community-facilities.html" class="footer__link">Community Facilities</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4 class="footer__heading">Contact Us</h4>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Laverockbraes, Whitestripes Road<br>Bridge of Don, Aberdeen AB22 8AW</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>01234 567890</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>hello@oasischurch.org</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Oasis Church Aberdeen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/441234567890?text=Hi!%20I'm%20interested%20in%20visiting%20Oasis%20Church" class="whatsapp-btn whatsapp-btn--floating" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

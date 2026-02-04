@@ -417,6 +417,142 @@
   }
 
   // ============================================
+  // Sermons Page Functionality
+  // ============================================
+  
+  function initSermonsPage() {
+    const sermonGrid = document.getElementById('sermon-grid');
+    const seriesFilter = document.getElementById('series-filter');
+    const sermonEmpty = document.getElementById('sermon-empty');
+    const toggleBtns = document.querySelectorAll('.sermons-toggle__btn');
+    
+    if (!sermonGrid) return;
+    
+    // Series filter
+    if (seriesFilter) {
+      seriesFilter.addEventListener('change', () => {
+        const selectedSeries = seriesFilter.value;
+        const cards = sermonGrid.querySelectorAll('.sermon-card');
+        let visibleCount = 0;
+        
+        cards.forEach(card => {
+          const cardSeries = card.dataset.series;
+          if (selectedSeries === 'all' || cardSeries === selectedSeries) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Show/hide empty state
+        if (sermonEmpty) {
+          sermonEmpty.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+      });
+    }
+    
+    // Video/Audio toggle
+    toggleBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        toggleBtns.forEach(b => {
+          b.classList.remove('sermons-toggle__btn--active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('sermons-toggle__btn--active');
+        btn.setAttribute('aria-selected', 'true');
+        
+        // Could add logic here to switch between video/audio content
+        const mediaType = btn.dataset.media;
+        console.log('Switched to:', mediaType);
+      });
+    });
+  }
+
+  // ============================================
+  // Giving Page Functionality
+  // ============================================
+  
+  function initGivingPage() {
+    const amountBtns = document.querySelectorAll('.giving-amount');
+    const frequencyBtns = document.querySelectorAll('.giving-frequency');
+    
+    // Amount selection
+    amountBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        amountBtns.forEach(b => b.classList.remove('btn--primary'));
+        amountBtns.forEach(b => b.classList.add('btn--outline'));
+        btn.classList.remove('btn--outline');
+        btn.classList.add('btn--primary');
+      });
+    });
+    
+    // Frequency toggle
+    frequencyBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        frequencyBtns.forEach(b => b.classList.remove('giving-frequency--active'));
+        btn.classList.add('giving-frequency--active');
+      });
+    });
+    
+    // Copy buttons with better feedback
+    const copyBtns = document.querySelectorAll('.copy-btn');
+    copyBtns.forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const textToCopy = btn.dataset.copy;
+        if (!textToCopy) return;
+        
+        try {
+          await navigator.clipboard.writeText(textToCopy);
+          btn.classList.add('copied');
+          
+          // Change icon to checkmark temporarily
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+          
+          setTimeout(() => {
+            btn.classList.remove('copied');
+            btn.innerHTML = originalHTML;
+          }, 2000);
+        } catch (err) {
+          console.error('Failed to copy:', err);
+        }
+      });
+    });
+  }
+
+  // ============================================
+  // Podcasts Page Functionality
+  // ============================================
+  
+  function initPodcastsPage() {
+    const categoryBtns = document.querySelectorAll('.podcast-categories .filter-tab');
+    const podcastCards = document.querySelectorAll('.podcast-recommendation-card');
+    
+    if (categoryBtns.length === 0) return;
+    
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const category = btn.dataset.category;
+        
+        // Update active state
+        categoryBtns.forEach(b => b.classList.remove('filter-tab--active'));
+        btn.classList.add('filter-tab--active');
+        
+        // Filter cards
+        podcastCards.forEach(card => {
+          const cardCategory = card.dataset.category;
+          if (category === 'all' || cardCategory === category) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  // ============================================
   // Initialize Everything
   // ============================================
   
@@ -429,6 +565,9 @@
     initQuizzes();
     initLazyLoading();
     initMobileDropdowns();
+    initSermonsPage();
+    initGivingPage();
+    initPodcastsPage();
     
     // Run scroll handler once on load
     handleScroll();

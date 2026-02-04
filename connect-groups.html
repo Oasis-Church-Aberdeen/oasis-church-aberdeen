@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join a Connect Group at Oasis Church Aberdeen. Small groups meeting throughout the week for fellowship, Bible study, and community.">
+  <title>Connect Groups - Oasis Church Aberdeen</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__container">
+      <a href="index.html" class="header__logo" aria-label="Oasis Church Aberdeen - Home">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 8 L20 32 M12 20 L28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <span class="header__logo-text">Oasis Church</span>
+      </a>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item--dropdown">
+            <a href="about.html" class="nav__link">About</a>
+            <ul class="nav__dropdown">
+              <li><a href="about.html" class="nav__dropdown-link">Our Story</a></li>
+              <li><a href="beliefs.html" class="nav__dropdown-link">What We Believe</a></li>
+              <li><a href="about.html#team" class="nav__dropdown-link">Leadership Team</a></li>
+              <li><a href="about.html#vision" class="nav__dropdown-link">Our Vision</a></li>
+            </ul>
+          </li>
+          <li><a href="sundays.html" class="nav__link">Sundays</a></li>
+          <li class="nav__item--dropdown">
+            <a href="sermons.html" class="nav__link">Sermons</a>
+            <ul class="nav__dropdown">
+              <li><a href="sermons.html" class="nav__dropdown-link">Watch & Listen</a></li>
+              <li><a href="sermon-games.html" class="nav__dropdown-link">Sermon Games</a></li>
+              <li><a href="podcasts.html" class="nav__dropdown-link">Podcasts</a></li>
+            </ul>
+          </li>
+          <li class="nav__item--dropdown">
+            <a href="new-here.html" class="nav__link nav__link--active">Connect</a>
+            <ul class="nav__dropdown">
+              <li><a href="new-here.html" class="nav__dropdown-link">I'm New Here</a></li>
+              <li><a href="connect-groups.html" class="nav__dropdown-link">Connect Groups</a></li>
+              <li><a href="children-youth.html" class="nav__dropdown-link">Children & Youth</a></li>
+              <li><a href="calendar.html" class="nav__dropdown-link">Events Calendar</a></li>
+            </ul>
+          </li>
+          <li><a href="giving.html" class="nav__link">Give</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="new-here.html" class="btn btn--primary">I'm New</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Mobile navigation" aria-hidden="true">
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">About</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="about.html" class="mobile-nav__dropdown-link">Our Story</a></li>
+          <li><a href="beliefs.html" class="mobile-nav__dropdown-link">What We Believe</a></li>
+          <li><a href="about.html#team" class="mobile-nav__dropdown-link">Leadership Team</a></li>
+          <li><a href="about.html#vision" class="mobile-nav__dropdown-link">Our Vision</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item"><a href="sundays.html" class="mobile-nav__link">Sundays</a></li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">Sermons</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="sermons.html" class="mobile-nav__dropdown-link">Watch & Listen</a></li>
+          <li><a href="sermon-games.html" class="mobile-nav__dropdown-link">Sermon Games</a></li>
+          <li><a href="podcasts.html" class="mobile-nav__dropdown-link">Podcasts</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link mobile-nav__link--active">Connect</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="new-here.html" class="mobile-nav__dropdown-link">I'm New Here</a></li>
+          <li><a href="connect-groups.html" class="mobile-nav__dropdown-link">Connect Groups</a></li>
+          <li><a href="children-youth.html" class="mobile-nav__dropdown-link">Children & Youth</a></li>
+          <li><a href="calendar.html" class="mobile-nav__dropdown-link">Events Calendar</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item"><a href="giving.html" class="mobile-nav__link">Give</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+    <div class="mobile-nav__cta">
+      <a href="new-here.html" class="btn btn--primary btn--full">I'm New Here</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <h1 class="page-hero__title">Connect Groups</h1>
+      <p class="page-hero__breadcrumb"><a href="index.html">Home</a> / Connect Groups</p>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: var(--space-2xl);">
+          <div>
+            <h2>Life Is Better Together</h2>
+            <p>Connect Groups are the heart of our church community. These small gatherings meet throughout the week in homes across Aberdeen, providing a space to build genuine friendships, study the Bible together, and support one another through life's ups and downs.</p>
+            <p>Whether you're new to faith or have been following Jesus for years, there's a group for you. Each group has its own personality, but they all share a commitment to growing together and caring for one another.</p>
+            <div class="visit-benefits">
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Deeper friendships and community</span>
+              </div>
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Practical Bible study and discussion</span>
+              </div>
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Prayer and support when you need it</span>
+              </div>
+              <div class="visit-benefit">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>A place to belong and be yourself</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80" alt="Small group gathering" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Groups List Section -->
+    <section class="section bg-neutral" id="groups">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Find Your Group</h2>
+          <p class="section-header__subtitle">We have groups meeting throughout the week. Find one that fits your schedule and location.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Group 1 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Bridge of Don Group</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Mixed Adults</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Tuesdays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>7:30pm - 9:00pm</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Bridge of Don</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by James & Sarah Wilson</span>
+                </div>
+              </div>
+              <p class="card__text">A welcoming group for adults of all ages. We enjoy lively discussions, shared meals, and supporting each other through prayer.</p>
+            </div>
+          </div>
+
+          <!-- Group 2 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Young Adults Group</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Ages 18-30</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Wednesdays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>7:00pm - 9:00pm</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>City Centre</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by David Thompson</span>
+                </div>
+              </div>
+              <p class="card__text">A dynamic group for young professionals and students. We tackle real-life topics, enjoy social activities, and grow in faith together.</p>
+            </div>
+          </div>
+
+          <!-- Group 3 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Dyce Community Group</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Families Welcome</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Thursdays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>7:00pm - 8:30pm</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Dyce</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by Mark & Lisa Henderson</span>
+                </div>
+              </div>
+              <p class="card__text">A family-friendly group where parents can connect while kids play. We focus on practical faith for everyday family life.</p>
+            </div>
+          </div>
+
+          <!-- Group 4 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Women's Bible Study</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Women Only</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Mondays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>10:00am - 11:30am</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Church Building</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by Sarah Wilson</span>
+                </div>
+              </div>
+              <p class="card__text">A morning group for women to dive deep into Scripture, share life together, and encourage one another. Crèche available.</p>
+            </div>
+          </div>
+
+          <!-- Group 5 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Men's Breakfast</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Men Only</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Saturdays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>8:00am - 9:30am (Monthly)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Local Café</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by James Wilson</span>
+                </div>
+              </div>
+              <p class="card__text">A monthly gathering for men over a full Scottish breakfast. Great food, honest conversation, and encouragement for life.</p>
+            </div>
+          </div>
+
+          <!-- Group 6 -->
+          <div class="card">
+            <div class="card__content">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-md);">
+                <div>
+                  <h3 class="card__title" style="margin-bottom: var(--space-xs);">Westhill Evening Group</h3>
+                  <p class="text-primary" style="font-weight: var(--font-weight-medium); margin-bottom: 0;">Mixed Adults</p>
+                </div>
+                <span style="background-color: var(--color-primary); color: white; padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-semibold);">Wednesdays</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: var(--space-sm); color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>7:30pm - 9:00pm</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Westhill</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Led by Andrew & Claire Fraser</span>
+                </div>
+              </div>
+              <p class="card__text">A warm and welcoming group in Westhill. We share life, study the Bible, and pray together in a relaxed home setting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sign Up Form Section -->
+    <section class="section" id="signup">
+      <div class="container">
+        <div class="grid-2" style="align-items: flex-start; gap: var(--space-2xl);">
+          <div>
+            <h2>Join a Connect Group</h2>
+            <p>Ready to take the next step? Fill out the form and we'll help you find the perfect group for you. Our Connect Groups coordinator will be in touch within a few days to answer any questions and help you get connected.</p>
+            <p>Not sure which group is right for you? No problem! Just let us know your preferences and we'll make a recommendation.</p>
+            
+            <div style="margin-top: var(--space-xl); padding: var(--space-lg); background-color: var(--color-neutral); border-radius: var(--radius-lg);">
+              <h4 style="margin-bottom: var(--space-sm);">What to Expect</h4>
+              <p style="color: var(--color-text-light); font-size: var(--font-size-sm); margin-bottom: 0;">Most groups meet weekly for about 90 minutes. A typical evening includes catching up over tea/coffee, Bible study or discussion, and prayer. Many groups also enjoy social activities together outside of regular meetings.</p>
+            </div>
+          </div>
+
+          <div class="form-container">
+            <form name="connect-group-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+              <input type="hidden" name="form-name" value="connect-group-signup">
+              <p class="form__honeypot">
+                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+              </p>
+
+              <div class="form__group">
+                <label for="name" class="form__label form__label--required">Full Name</label>
+                <input type="text" id="name" name="name" class="form__input" required placeholder="Your full name">
+              </div>
+
+              <div class="form__group">
+                <label for="email" class="form__label form__label--required">Email Address</label>
+                <input type="email" id="email" name="email" class="form__input" required placeholder="your@email.com">
+              </div>
+
+              <div class="form__group">
+                <label for="phone" class="form__label">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form__input" placeholder="Your phone number (optional)">
+              </div>
+
+              <div class="form__group">
+                <label for="preferred-group" class="form__label">Preferred Group</label>
+                <select id="preferred-group" name="preferred-group" class="form__select">
+                  <option value="">No preference - help me choose</option>
+                  <option value="bridge-of-don">Bridge of Don Group (Tuesdays)</option>
+                  <option value="young-adults">Young Adults Group (Wednesdays)</option>
+                  <option value="dyce">Dyce Community Group (Thursdays)</option>
+                  <option value="womens">Women's Bible Study (Mondays)</option>
+                  <option value="mens">Men's Breakfast (Saturdays)</option>
+                  <option value="westhill">Westhill Evening Group (Wednesdays)</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label for="message" class="form__label">Anything else we should know?</label>
+                <textarea id="message" name="message" class="form__textarea" rows="4" placeholder="Tell us about yourself, any questions you have, or preferences for a group..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">Sign Me Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-primary text-white text-center">
+      <div class="container">
+        <h2 style="color: var(--color-white);">Questions About Connect Groups?</h2>
+        <p class="mb-xl cta-text">We're here to help you find your place in our community. Reach out anytime!</p>
+        <a href="contact.html" class="btn btn--outline-light btn--lg">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">
+              <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 8 L20 32 M12 20 L28 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <span>Oasis Church</span>
+          </a>
+          <p class="footer__description">A welcoming community of Christ-followers in Aberdeen, Scotland.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://youtube.com" class="footer__social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="sundays.html" class="footer__link">Sundays</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+            <li><a href="calendar.html" class="footer__link">Events</a></li>
+            <li><a href="giving.html" class="footer__link">Giving</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Get Involved</h4>
+          <ul class="footer__links">
+            <li><a href="connect-groups.html" class="footer__link">Connect Groups</a></li>
+            <li><a href="children-youth.html" class="footer__link">Children & Youth</a></li>
+            <li><a href="partner.html" class="footer__link">Volunteer</a></li>
+            <li><a href="facility-hire.html" class="footer__link">Facility Hire</a></li>
+            <li><a href="community-facilities.html" class="footer__link">Community Facilities</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact Us</h4>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>123 Church Street<br>Aberdeen, AB12 3CD</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>01234 567890</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>hello@oasischurch.org</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Oasis Church Aberdeen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/441234567890" class="whatsapp-btn" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

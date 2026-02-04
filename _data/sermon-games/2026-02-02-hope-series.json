@@ -1,0 +1,153 @@
+{
+  "sermonId": "2026-02-02-hope-series",
+  "sermonTitle": "Finding Hope in Uncertain Times",
+  "sermonDate": "2 February 2026",
+  "sermonSpeaker": "Pastor James Wilson",
+  "sermonSeries": "Living with Hope",
+  "memoryVerse": {
+    "text": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+    "reference": "Romans 15:13"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "According to Romans 15:13, what does the God of hope fill us with?",
+        "options": ["Wisdom and understanding", "Joy and peace", "Strength and courage", "Faith and love"],
+        "correct": 1,
+        "explanation": "Romans 15:13 says God fills us with 'all joy and peace as you trust in him.'"
+      },
+      {
+        "question": "What is the source of our hope according to this passage?",
+        "options": ["Our own efforts", "Other people", "The Holy Spirit", "Good circumstances"],
+        "correct": 2,
+        "explanation": "The verse says we 'overflow with hope by the power of the Holy Spirit.'"
+      },
+      {
+        "question": "What must we do to receive joy and peace from God?",
+        "options": ["Work harder", "Trust in Him", "Pray more", "Read the Bible daily"],
+        "correct": 1,
+        "explanation": "The verse says 'as you trust in him' - trust is the key to receiving God's joy and peace."
+      },
+      {
+        "question": "What does it mean to 'overflow' with hope?",
+        "options": ["To have just enough hope", "To have hope that spills over to others", "To hope occasionally", "To keep hope to yourself"],
+        "correct": 1,
+        "explanation": "Overflowing hope means having so much that it naturally spills over and impacts those around us."
+      },
+      {
+        "question": "Why is hope important during uncertain times?",
+        "options": ["It makes us feel better temporarily", "It anchors us to God's faithfulness", "It helps us ignore problems", "It's not really important"],
+        "correct": 1,
+        "explanation": "Hope anchors us to God's unchanging character and promises, even when circumstances are difficult."
+      },
+      {
+        "question": "According to the sermon, hope is NOT:",
+        "options": ["A confident expectation", "Rooted in God's faithfulness", "Wishful thinking", "A gift from God"],
+        "correct": 2,
+        "explanation": "Biblical hope is not wishful thinking - it's a confident expectation based on God's character and promises."
+      },
+      {
+        "question": "What role does the Holy Spirit play in our hope?",
+        "options": ["No role at all", "He gives us the power to hope", "He takes away our hope", "He only helps pastors"],
+        "correct": 1,
+        "explanation": "The Holy Spirit empowers us to overflow with hope - it's His power working in us."
+      },
+      {
+        "question": "How can we cultivate hope in our daily lives?",
+        "options": ["Ignore difficult circumstances", "Trust God and focus on His promises", "Pretend everything is fine", "Avoid other people"],
+        "correct": 1,
+        "explanation": "We cultivate hope by actively trusting God and keeping our focus on His faithful promises."
+      }
+    ]
+  },
+  "crossword": {
+    "size": 10,
+    "grid": [
+      ["H", "O", "P", "E", "#", "J", "O", "Y", "#", "#"],
+      ["O", "#", "E", "#", "#", "#", "#", "#", "#", "#"],
+      ["L", "#", "A", "#", "T", "R", "U", "S", "T", "#"],
+      ["Y", "#", "C", "#", "#", "#", "#", "#", "#", "#"],
+      ["#", "#", "E", "#", "#", "#", "#", "#", "#", "#"],
+      ["S", "P", "I", "R", "I", "T", "#", "#", "#", "#"],
+      ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"],
+      ["F", "A", "I", "T", "H", "#", "#", "#", "#", "#"],
+      ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"],
+      ["L", "O", "V", "E", "#", "#", "#", "#", "#", "#"]
+    ],
+    "words": [
+      {"word": "HOPE", "row": 0, "col": 0, "direction": "across", "clue": "A confident expectation in God's promises (Romans 15:13)"},
+      {"word": "JOY", "row": 0, "col": 5, "direction": "across", "clue": "One of the things God fills us with"},
+      {"word": "HOLY", "row": 0, "col": 0, "direction": "down", "clue": "The ___ Spirit gives us power"},
+      {"word": "PEACE", "row": 0, "col": 2, "direction": "down", "clue": "Inner calm that comes from trusting God"},
+      {"word": "TRUST", "row": 2, "col": 4, "direction": "across", "clue": "What we must do to receive joy and peace"},
+      {"word": "SPIRIT", "row": 5, "col": 0, "direction": "across", "clue": "The Holy ___ empowers us to overflow with hope"},
+      {"word": "FAITH", "row": 7, "col": 0, "direction": "across", "clue": "Believing in what we cannot see"},
+      {"word": "LOVE", "row": 9, "col": 0, "direction": "across", "clue": "God's greatest attribute (1 John 4:8)"}
+    ]
+  },
+  "wordSearch": {
+    "size": 12,
+    "grid": [
+      ["H", "O", "P", "E", "F", "U", "L", "T", "R", "U", "S", "T"],
+      ["P", "E", "A", "C", "E", "J", "O", "Y", "F", "U", "L", "A"],
+      ["S", "P", "I", "R", "I", "T", "H", "O", "L", "Y", "G", "B"],
+      ["F", "A", "I", "T", "H", "F", "U", "L", "N", "E", "S", "S"],
+      ["O", "V", "E", "R", "F", "L", "O", "W", "I", "N", "G", "R"],
+      ["G", "R", "A", "C", "E", "M", "E", "R", "C", "Y", "O", "O"],
+      ["P", "R", "O", "M", "I", "S", "E", "S", "L", "O", "V", "E"],
+      ["B", "L", "E", "S", "S", "I", "N", "G", "S", "J", "E", "M"],
+      ["C", "O", "M", "F", "O", "R", "T", "E", "R", "H", "R", "A"],
+      ["S", "T", "R", "E", "N", "G", "T", "H", "O", "P", "E", "N"],
+      ["R", "E", "J", "O", "I", "C", "E", "A", "L", "W", "A", "S"],
+      ["G", "O", "D", "S", "L", "O", "V", "E", "F", "O", "R", "U"]
+    ],
+    "words": [
+      {"word": "HOPE", "startRow": 0, "startCol": 0, "direction": "right"},
+      {"word": "TRUST", "startRow": 0, "startCol": 7, "direction": "right"},
+      {"word": "PEACE", "startRow": 1, "startCol": 0, "direction": "right"},
+      {"word": "JOY", "startRow": 1, "startCol": 5, "direction": "right"},
+      {"word": "SPIRIT", "startRow": 2, "startCol": 0, "direction": "right"},
+      {"word": "HOLY", "startRow": 2, "startCol": 6, "direction": "right"},
+      {"word": "FAITH", "startRow": 3, "startCol": 0, "direction": "right"},
+      {"word": "OVERFLOWING", "startRow": 4, "startCol": 0, "direction": "right"},
+      {"word": "GRACE", "startRow": 5, "startCol": 0, "direction": "right"},
+      {"word": "MERCY", "startRow": 5, "startCol": 5, "direction": "right"},
+      {"word": "PROMISES", "startRow": 6, "startCol": 0, "direction": "right"},
+      {"word": "LOVE", "startRow": 6, "startCol": 8, "direction": "right"},
+      {"word": "BLESSINGS", "startRow": 7, "startCol": 0, "direction": "right"},
+      {"word": "COMFORTER", "startRow": 8, "startCol": 0, "direction": "right"},
+      {"word": "STRENGTH", "startRow": 9, "startCol": 0, "direction": "right"},
+      {"word": "REJOICE", "startRow": 10, "startCol": 0, "direction": "right"}
+    ]
+  },
+  "fillBlanks": {
+    "verses": [
+      {
+        "reference": "Romans 15:13",
+        "text": "May the God of _____ fill you with all _____ and _____ as you _____ in him, so that you may _____ with hope by the power of the Holy _____.",
+        "blanks": ["hope", "joy", "peace", "trust", "overflow", "Spirit"]
+      },
+      {
+        "reference": "Hebrews 11:1",
+        "text": "Now _____ is confidence in what we _____ for and assurance about what we do not _____.",
+        "blanks": ["faith", "hope", "see"]
+      },
+      {
+        "reference": "Jeremiah 29:11",
+        "text": "For I know the _____ I have for you, declares the Lord, plans to _____ you and not to _____ you, plans to give you _____ and a _____.",
+        "blanks": ["plans", "prosper", "harm", "hope", "future"]
+      }
+    ]
+  },
+  "memoryVerseChallenge": {
+    "verse": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+    "reference": "Romans 15:13",
+    "hints": [
+      "May the God of hope...",
+      "...fill you with all joy and peace...",
+      "...as you trust in him...",
+      "...so that you may overflow with hope...",
+      "...by the power of the Holy Spirit."
+    ]
+  }
+}

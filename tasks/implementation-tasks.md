@@ -2,16 +2,16 @@
 
 **Source PRD:** `tasks/prd-oasis-church-website.md`  
 **Created:** 4 February 2026  
-**Status:** Not Started
+**Status:** In Progress (Phase 1 Complete)
 
 ---
 
 ## Pre-Flight Checklist
 
-- [ ] **0.1** Verify development environment (code editor, browser dev tools)
-- [ ] **0.2** Initialize Git repository (if not already done)
-- [ ] **0.3** Create feature branch `feature/oasis-website-v1`
-- [ ] **0.4** Confirm project folder structure is clean
+- [x] **0.1** Verify development environment (code editor, browser dev tools)
+- [x] **0.2** Initialize Git repository (if not already done)
+- [x] **0.3** Create feature branch `feature/oasis-website-v1`
+- [x] **0.4** Confirm project folder structure is clean
 
 ---
 
@@ -19,10 +19,10 @@
 
 ### 1.1 Project Structure & Base Files
 
-- [ ] **1.1.1** Create folder structure: `css/`, `js/`, `images/`, `admin/`, `_data/`
-- [ ] **1.1.2** Create `README.md` with project overview and setup instructions
-- [ ] **1.1.3** Create `netlify.toml` with basic configuration (publish directory, form handling)
-- [ ] **1.1.4** Download and add placeholder images from Unsplash (hero, about, team, events)
+- [x] **1.1.1** Create folder structure: `css/`, `js/`, `images/`, `admin/`, `_data/`
+- [x] **1.1.2** Create `README.md` with project overview and setup instructions
+- [x] **1.1.3** Create `netlify.toml` with basic configuration (publish directory, form handling)
+- [x] **1.1.4** Using Unsplash CDN URLs for images (hero, about, team, events)
 
 **Validation:** Folders exist, README readable, netlify.toml valid TOML
 
@@ -30,20 +30,20 @@
 
 ### 1.2 CSS Foundation (`css/styles.css`)
 
-- [ ] **1.2.1** Create CSS reset/normalize section
-- [ ] **1.2.2** Define CSS custom properties (variables) for colour palette:
+- [x] **1.2.1** Create CSS reset/normalize section
+- [x] **1.2.2** Define CSS custom properties (variables) for colour palette:
   - Primary: `#0D7377` (deep teal)
   - Accent: `#FF6B35` (coral/orange)
   - Neutral: `#F5F5F5` (warm grey)
   - Text: `#2D3436` (dark grey)
   - White: `#FFFFFF`
-- [ ] **1.2.3** Add Google Fonts import (Inter or Poppins)
-- [ ] **1.2.4** Define typography scale (headings h1-h6, body, small)
-- [ ] **1.2.5** Create utility classes (container, section padding, text alignment)
-- [ ] **1.2.6** Define responsive breakpoints (320px, 375px, 428px, 768px, 1024px, 1280px, 1440px, 1920px)
-- [ ] **1.2.7** Create button styles (primary, secondary, outline variants)
-- [ ] **1.2.8** Create card component styles (shadow, border-radius, padding)
-- [ ] **1.2.9** Add smooth scroll behaviour and focus styles
+- [x] **1.2.3** Add Google Fonts import (Inter or Poppins)
+- [x] **1.2.4** Define typography scale (headings h1-h6, body, small)
+- [x] **1.2.5** Create utility classes (container, section padding, text alignment)
+- [x] **1.2.6** Define responsive breakpoints (320px, 375px, 428px, 768px, 1024px, 1280px, 1440px, 1920px)
+- [x] **1.2.7** Create button styles (primary, secondary, outline variants)
+- [x] **1.2.8** Create card component styles (shadow, border-radius, padding)
+- [x] **1.2.9** Add smooth scroll behaviour and focus styles
 
 **Validation:** Open test HTML file, verify colours/fonts render correctly across breakpoints
 
@@ -51,14 +51,14 @@
 
 ### 1.3 Header & Navigation
 
-- [ ] **1.3.1** Create header HTML structure with logo placeholder and nav links
-- [ ] **1.3.2** Style sticky header with backdrop blur effect
-- [ ] **1.3.3** Style desktop navigation (horizontal links, hover states)
-- [ ] **1.3.4** Create mobile hamburger icon (CSS-only or minimal JS)
-- [ ] **1.3.5** Style mobile navigation drawer (slide-in animation)
-- [ ] **1.3.6** Implement mobile menu toggle functionality (`js/main.js`)
-- [ ] **1.3.7** Add "Skip to main content" accessibility link
-- [ ] **1.3.8** Ensure keyboard navigation works (Tab, Enter, Escape)
+- [x] **1.3.1** Create header HTML structure with logo placeholder and nav links
+- [x] **1.3.2** Style sticky header with backdrop blur effect
+- [x] **1.3.3** Style desktop navigation (horizontal links, hover states)
+- [x] **1.3.4** Create mobile hamburger icon (CSS-only or minimal JS)
+- [x] **1.3.5** Style mobile navigation drawer (slide-in animation)
+- [x] **1.3.6** Implement mobile menu toggle functionality (`js/main.js`)
+- [x] **1.3.7** Add "Skip to main content" accessibility link
+- [x] **1.3.8** Ensure keyboard navigation works (Tab, Enter, Escape)
 
 **Validation:** Test on Chrome/Safari desktop + mobile; menu opens/closes smoothly; keyboard accessible
 
@@ -66,11 +66,11 @@
 
 ### 1.4 Footer
 
-- [ ] **1.4.1** Create footer HTML structure (contact info, quick links, social icons)
-- [ ] **1.4.2** Style footer with dark background and light text
-- [ ] **1.4.3** Add social media icon links (Facebook, Instagram, YouTube)
-- [ ] **1.4.4** Add copyright and church address
-- [ ] **1.4.5** Make footer responsive (stack columns on mobile)
+- [x] **1.4.1** Create footer HTML structure (contact info, quick links, social icons)
+- [x] **1.4.2** Style footer with dark background and light text
+- [x] **1.4.3** Add social media icon links (Facebook, Instagram, YouTube)
+- [x] **1.4.4** Add copyright and church address
+- [x] **1.4.5** Make footer responsive (stack columns on mobile)
 
 **Validation:** Footer displays correctly on all breakpoints; all links work
 
@@ -78,16 +78,16 @@
 
 ### 1.5 Homepage (`index.html`)
 
-- [ ] **1.5.1** Create base HTML5 document structure with proper meta tags (charset, viewport, description)
-- [ ] **1.5.2** Add Open Graph meta tags for social sharing
-- [ ] **1.5.3** Include header and footer components
-- [ ] **1.5.4** Build hero section with background image, overlay, headline, and CTA button ("Plan Your Visit")
-- [ ] **1.5.5** Add service times banner section (Sundays at 10:30am)
-- [ ] **1.5.6** Build "Latest Sermon" card section with YouTube thumbnail placeholder
-- [ ] **1.5.7** Build "Upcoming Events" section with 3 event cards
-- [ ] **1.5.8** Build "Quick Links" section (About, Sermons, Connect Groups)
-- [ ] **1.5.9** Add WhatsApp community floating button (mobile)
-- [ ] **1.5.10** Ensure all sections are responsive
+- [x] **1.5.1** Create base HTML5 document structure with proper meta tags (charset, viewport, description)
+- [x] **1.5.2** Add Open Graph meta tags for social sharing
+- [x] **1.5.3** Include header and footer components
+- [x] **1.5.4** Build hero section with background image, overlay, headline, and CTA button ("Plan Your Visit")
+- [x] **1.5.5** Add service times banner section (Sundays at 10:30am)
+- [x] **1.5.6** Build "Latest Sermon" card section with YouTube thumbnail placeholder
+- [x] **1.5.7** Build "Upcoming Events" section with 3 event cards
+- [x] **1.5.8** Build "Quick Links" section (About, Sermons, Connect Groups)
+- [x] **1.5.9** Add WhatsApp community floating button (mobile)
+- [x] **1.5.10** Ensure all sections are responsive
 
 **Validation:** Page renders without errors; Lighthouse Performance ≥ 70; all links work
 
@@ -95,13 +95,13 @@
 
 ### 1.6 About Page (`about.html`)
 
-- [ ] **1.6.1** Create page with consistent header/footer
-- [ ] **1.6.2** Build hero section with page title
-- [ ] **1.6.3** Add "Our Story" section with church history content
-- [ ] **1.6.4** Add "Our Vision" section with mission statement
-- [ ] **1.6.5** Build "Leadership Team" section with bio cards (photo, name, role, bio)
-- [ ] **1.6.6** Add mock leadership team data (3-4 people)
-- [ ] **1.6.7** Ensure responsive layout for team grid
+- [x] **1.6.1** Create page with consistent header/footer
+- [x] **1.6.2** Build hero section with page title
+- [x] **1.6.3** Add "Our Story" section with church history content
+- [x] **1.6.4** Add "Our Vision" section with mission statement
+- [x] **1.6.5** Build "Leadership Team" section with bio cards (photo, name, role, bio)
+- [x] **1.6.6** Add mock leadership team data (3-4 people)
+- [x] **1.6.7** Ensure responsive layout for team grid
 
 **Validation:** Page renders correctly; team cards display properly on mobile
 
@@ -109,14 +109,14 @@
 
 ### 1.7 Contact Page (`contact.html`)
 
-- [ ] **1.7.1** Create page with consistent header/footer
-- [ ] **1.7.2** Build hero section with page title
-- [ ] **1.7.3** Create contact form (name, email, message) with Netlify Forms attribute
-- [ ] **1.7.4** Style form inputs with focus states and validation styling
-- [ ] **1.7.5** Add form submission success/error handling (JS)
-- [ ] **1.7.6** Embed Google Maps iframe with church location
-- [ ] **1.7.7** Add contact details section (address, phone, email)
-- [ ] **1.7.8** Add social media links section
+- [x] **1.7.1** Create page with consistent header/footer
+- [x] **1.7.2** Build hero section with page title
+- [x] **1.7.3** Create contact form (name, email, message) with Netlify Forms attribute
+- [x] **1.7.4** Style form inputs with focus states and validation styling
+- [x] **1.7.5** Add form submission success/error handling (JS)
+- [x] **1.7.6** Embed Google Maps iframe with church location
+- [x] **1.7.7** Add contact details section (address, phone, email)
+- [x] **1.7.8** Add social media links section
 
 **Validation:** Form submits to Netlify; map loads; all fields validate
 
@@ -124,12 +124,12 @@
 
 ### 1.8 Sundays Page (`sundays.html`)
 
-- [ ] **1.8.1** Create page with consistent header/footer
-- [ ] **1.8.2** Build hero section with welcoming image
-- [ ] **1.8.3** Add service times section (prominently displayed)
-- [ ] **1.8.4** Add "What to Expect" section with bullet points
-- [ ] **1.8.5** Add parking/directions information
-- [ ] **1.8.6** Add "Plan Your Visit" CTA linking to `new-here.html`
+- [x] **1.8.1** Create page with consistent header/footer
+- [x] **1.8.2** Build hero section with welcoming image
+- [x] **1.8.3** Add service times section (prominently displayed)
+- [x] **1.8.4** Add "What to Expect" section with bullet points
+- [x] **1.8.5** Add parking/directions information
+- [x] **1.8.6** Add "Plan Your Visit" CTA linking to `new-here.html`
 
 **Validation:** Page renders correctly; service times prominent; responsive
 
@@ -137,7 +137,7 @@
 
 ### 1.9 Initial Deployment
 
-- [ ] **1.9.1** Commit all Phase 1 work to Git
+- [x] **1.9.1** Commit all Phase 1 work to Git
 - [ ] **1.9.2** Push to GitHub/GitLab repository
 - [ ] **1.9.3** Connect repository to Netlify
 - [ ] **1.9.4** Verify automatic deployment works
@@ -181,13 +181,13 @@ Summary required:
 
 ### 2.2 Children & Youth Page (`children-youth.html`)
 
-- [ ] **2.2.1** Create page with consistent header/footer
-- [ ] **2.2.2** Build hero section with welcoming image
-- [ ] **2.2.3** Add "Kids Ministry" section (ages, activities, times)
-- [ ] **2.2.4** Add "Youth Ministry" section (ages, activities, times)
-- [ ] **2.2.5** Add safety/safeguarding information section
-- [ ] **2.2.6** Add leader bio cards (optional)
-- [ ] **2.2.7** Add "Register Your Child" CTA (links to contact or form)
+- [x] **2.2.1** Create page with consistent header/footer
+- [x] **2.2.2** Build hero section with welcoming image
+- [x] **2.2.3** Add "Kids Ministry" section (ages, activities, times)
+- [x] **2.2.4** Add "Youth Ministry" section (ages, activities, times)
+- [x] **2.2.5** Add safety/safeguarding information section
+- [x] **2.2.6** Add leader bio cards (optional)
+- [x] **2.2.7** Add "Register Your Child" CTA (links to contact or form)
 
 **Validation:** Page renders correctly; content is clear and reassuring for parents
 
@@ -251,14 +251,14 @@ Summary required:
 
 ### 3.1 Connect Groups Page (`connect-groups.html`)
 
-- [ ] **3.1.1** Create page with consistent header/footer
-- [ ] **3.1.2** Build hero section with page title and intro
-- [ ] **3.1.3** Create group card component (name, day, time, location, leader)
-- [ ] **3.1.4** Build group grid layout
-- [ ] **3.1.5** Add mock connect group data (4-6 groups)
+- [x] **3.1.1** Create page with consistent header/footer
+- [x] **3.1.2** Build hero section with page title and intro
+- [x] **3.1.3** Create group card component (name, day, time, location, leader)
+- [x] **3.1.4** Build group grid layout
+- [x] **3.1.5** Add mock connect group data (4-6 groups)
 - [ ] **3.1.6** Add filter by day/location (optional)
-- [ ] **3.1.7** Create sign-up form (name, email, preferred group)
-- [ ] **3.1.8** Add form with Netlify Forms integration
+- [x] **3.1.7** Create sign-up form (name, email, preferred group)
+- [x] **3.1.8** Add form with Netlify Forms integration
 
 **Validation:** Groups display correctly; form submits; responsive layout
 
@@ -266,11 +266,11 @@ Summary required:
 
 ### 3.2 Calendar/Events Page (`calendar.html`)
 
-- [ ] **3.2.1** Create page with consistent header/footer
-- [ ] **3.2.2** Build hero section with page title
-- [ ] **3.2.3** Create event card component (date badge, title, time, location, description)
-- [ ] **3.2.4** Build event list/grid layout (chronological)
-- [ ] **3.2.5** Add mock event data (6-8 events over next 3 months)
+- [x] **3.2.1** Create page with consistent header/footer
+- [x] **3.2.2** Build hero section with page title
+- [x] **3.2.3** Create event card component (date badge, title, time, location, description)
+- [x] **3.2.4** Build event list/grid layout (chronological)
+- [x] **3.2.5** Add mock event data (6-8 events over next 3 months)
 - [ ] **3.2.6** Add month navigation or "View More" functionality
 - [ ] **3.2.7** Handle empty state ("No upcoming events")
 - [ ] **3.2.8** Add CMS collection for events (if not done in 2.4)
@@ -349,12 +349,12 @@ Summary required:
 
 ### 4.2 Partner With Us Page (`partner.html`)
 
-- [ ] **4.2.1** Create page with consistent header/footer
-- [ ] **4.2.2** Build hero section with page title
-- [ ] **4.2.3** Add "Ways to Serve" section with volunteer opportunities
-- [ ] **4.2.4** Add volunteer role cards (worship, kids, hospitality, tech, etc.)
-- [ ] **4.2.5** Add "Get Involved" form or CTA
-- [ ] **4.2.6** Add partnership/sponsorship information (if applicable)
+- [x] **4.2.1** Create page with consistent header/footer
+- [x] **4.2.2** Build hero section with page title
+- [x] **4.2.3** Add "Ways to Serve" section with volunteer opportunities
+- [x] **4.2.4** Add volunteer role cards (worship, kids, hospitality, tech, etc.)
+- [x] **4.2.5** Add "Get Involved" form or CTA
+- [x] **4.2.6** Add partnership/sponsorship information (if applicable)
 
 **Validation:** Page renders correctly; opportunities clear; CTA works
 

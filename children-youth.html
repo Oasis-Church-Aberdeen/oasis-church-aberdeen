@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Oasis Church Aberdeen - Get in touch with us, find our location, or send us a message.">
-  <title>Contact Us - Oasis Church Aberdeen</title>
+  <meta name="description" content="Children & Youth programs at Oasis Church Aberdeen. Safe, fun, and faith-filled environments for kids and teenagers.">
+  <title>Children & Youth - Oasis Church Aberdeen</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -43,7 +43,7 @@
             </ul>
           </li>
           <li class="nav__item--dropdown">
-            <a href="new-here.html" class="nav__link">Connect</a>
+            <a href="new-here.html" class="nav__link nav__link--active">Connect</a>
             <ul class="nav__dropdown">
               <li><a href="new-here.html" class="nav__dropdown-link">I'm New Here</a></li>
               <li><a href="connect-groups.html" class="nav__dropdown-link">Connect Groups</a></li>
@@ -52,7 +52,7 @@
             </ul>
           </li>
           <li><a href="giving.html" class="nav__link">Give</a></li>
-          <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
         </ul>
         <a href="new-here.html" class="btn btn--primary">I'm New</a>
       </nav>
@@ -87,7 +87,7 @@
         </ul>
       </li>
       <li class="mobile-nav__item mobile-nav__item--dropdown">
-        <a href="#" class="mobile-nav__link">Connect</a>
+        <a href="#" class="mobile-nav__link mobile-nav__link--active">Connect</a>
         <ul class="mobile-nav__dropdown">
           <li><a href="new-here.html" class="mobile-nav__dropdown-link">I'm New Here</a></li>
           <li><a href="connect-groups.html" class="mobile-nav__dropdown-link">Connect Groups</a></li>
@@ -96,7 +96,7 @@
         </ul>
       </li>
       <li class="mobile-nav__item"><a href="giving.html" class="mobile-nav__link">Give</a></li>
-      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link mobile-nav__link--active">Contact</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
     </ul>
     <div class="mobile-nav__cta">
       <a href="new-here.html" class="btn btn--primary btn--full">I'm New Here</a>
@@ -104,133 +104,196 @@
   </nav>
 
   <main id="main">
-    <!-- Page Hero -->
-    <section class="page-hero">
-      <h1 class="page-hero__title">Contact Us</h1>
-      <p class="page-hero__breadcrumb"><a href="index.html">Home</a> / Contact</p>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh;">
+      <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1920&q=80" alt="Children having fun" class="hero__background" loading="eager">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">Children & Youth</h1>
+        <p class="hero__subtitle">A safe place for the next generation to discover faith, build friendships, and have fun.</p>
+      </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Intro Section -->
     <section class="section">
       <div class="container">
-        <div class="grid-2" style="gap: var(--space-2xl);">
-          <!-- Contact Form -->
-          <div>
-            <h2>Send Us a Message</h2>
-            <p class="mb-xl">Have a question or want to get in touch? Fill out the form below and we'll get back to you as soon as possible.</p>
-            
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
-              <input type="hidden" name="form-name" value="contact">
-              
-              <!-- Honeypot field for spam protection -->
-              <p class="form__honeypot">
-                <label>Don't fill this out if you're human: <input name="bot-field"></label>
-              </p>
-              
-              <div class="form__group">
-                <label for="name" class="form__label form__label--required">Your Name</label>
-                <input type="text" id="name" name="name" class="form__input" required placeholder="John Smith">
-              </div>
-              
-              <div class="form__group">
-                <label for="email" class="form__label form__label--required">Email Address</label>
-                <input type="email" id="email" name="email" class="form__input" required placeholder="john@example.com">
-              </div>
-              
-              <div class="form__group">
-                <label for="subject" class="form__label">Subject</label>
-                <input type="text" id="subject" name="subject" class="form__input" placeholder="How can we help?">
-              </div>
-              
-              <div class="form__group">
-                <label for="message" class="form__label form__label--required">Message</label>
-                <textarea id="message" name="message" class="form__textarea" required placeholder="Your message..."></textarea>
-              </div>
-              
-              <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
-            </form>
-          </div>
+        <div class="section-header">
+          <h2 class="section-header__title">Growing Together</h2>
+          <p class="section-header__subtitle">We believe every child and young person matters to God. Our programs are designed to help them experience His love in age-appropriate, engaging ways.</p>
+        </div>
+      </div>
+    </section>
 
-          <!-- Contact Info -->
+    <!-- Kids Ministry Section -->
+    <section class="section bg-neutral" id="kids">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: var(--space-2xl);">
           <div>
-            <h2>Get in Touch</h2>
-            <p class="mb-xl">We'd love to hear from you. Here's how you can reach us.</p>
+            <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&q=80" alt="Children in Sunday school" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+          </div>
+          <div>
+            <span class="text-primary" style="font-weight: var(--font-weight-semibold); text-transform: uppercase; font-size: var(--font-size-sm);">Ages 0-11</span>
+            <h2>Oasis Kids</h2>
+            <p>Oasis Kids is our vibrant children's ministry where little ones learn about God's love through stories, songs, crafts, and games. We create a fun, safe environment where faith comes alive!</p>
             
-            <div class="card mb-lg">
-              <div class="card__content">
-                <div style="display: flex; gap: var(--space-md); align-items: flex-start; margin-bottom: var(--space-lg);">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" style="flex-shrink: 0;">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-                  </svg>
-                  <div>
-                    <h4 style="margin-bottom: var(--space-xs);">Address</h4>
-                    <p style="margin: 0;">123 Church Street<br>Aberdeen, AB12 3CD<br>Scotland, UK</p>
-                  </div>
-                </div>
-                
-                <div style="display: flex; gap: var(--space-md); align-items: flex-start; margin-bottom: var(--space-lg);">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" style="flex-shrink: 0;">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                  </svg>
-                  <div>
-                    <h4 style="margin-bottom: var(--space-xs);">Phone</h4>
-                    <p style="margin: 0;"><a href="tel:01234567890">01234 567890</a></p>
-                  </div>
-                </div>
-                
-                <div style="display: flex; gap: var(--space-md); align-items: flex-start; margin-bottom: var(--space-lg);">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" style="flex-shrink: 0;">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
-                  </svg>
-                  <div>
-                    <h4 style="margin-bottom: var(--space-xs);">Email</h4>
-                    <p style="margin: 0;"><a href="mailto:hello@oasischurch.org">hello@oasischurch.org</a></p>
-                  </div>
-                </div>
-                
-                <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" style="flex-shrink: 0;">
-                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-                  </svg>
-                  <div>
-                    <h4 style="margin-bottom: var(--space-xs);">Office Hours</h4>
-                    <p style="margin: 0;">Monday - Friday: 9am - 5pm<br>Saturday - Sunday: Closed</p>
-                  </div>
-                </div>
-              </div>
+            <div style="margin-top: var(--space-lg);">
+              <h4 style="margin-bottom: var(--space-sm);">Age Groups</h4>
+              <ul style="margin-left: var(--space-lg); list-style: disc; color: var(--color-text-light);">
+                <li style="margin-bottom: var(--space-xs);"><strong>Tiny Oasis (0-2 years):</strong> Nursery care with loving volunteers</li>
+                <li style="margin-bottom: var(--space-xs);"><strong>Little Oasis (3-5 years):</strong> Preschool fun with Bible stories</li>
+                <li style="margin-bottom: var(--space-xs);"><strong>Oasis Explorers (6-8 years):</strong> Interactive learning and activities</li>
+                <li><strong>Oasis Adventurers (9-11 years):</strong> Deeper faith discussions and service projects</li>
+              </ul>
             </div>
 
-            <!-- Social Links -->
-            <h3>Follow Us</h3>
-            <div style="display: flex; gap: var(--space-md);">
-              <a href="https://facebook.com" class="btn btn--outline" target="_blank" rel="noopener">Facebook</a>
-              <a href="https://instagram.com" class="btn btn--outline" target="_blank" rel="noopener">Instagram</a>
-              <a href="https://youtube.com" class="btn btn--outline" target="_blank" rel="noopener">YouTube</a>
+            <div style="margin-top: var(--space-lg);">
+              <h4 style="margin-bottom: var(--space-sm);">When We Meet</h4>
+              <p style="margin-bottom: 0;"><strong>Sundays at 10:30am</strong> — during the main service</p>
+              <p class="text-light" style="font-size: var(--font-size-sm);">Children start in the main service for worship and are dismissed to their groups before the sermon.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Map Section -->
-    <section class="section bg-neutral">
+    <!-- Youth Ministry Section -->
+    <section class="section" id="youth">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: var(--space-2xl);">
+          <div>
+            <span class="text-primary" style="font-weight: var(--font-weight-semibold); text-transform: uppercase; font-size: var(--font-size-sm);">Ages 12-18</span>
+            <h2>Oasis Youth</h2>
+            <p>Oasis Youth is a community where teenagers can explore faith, ask tough questions, and build lasting friendships. We create space for young people to encounter God and discover their purpose.</p>
+            
+            <div style="margin-top: var(--space-lg);">
+              <h4 style="margin-bottom: var(--space-sm);">What We Do</h4>
+              <ul style="margin-left: var(--space-lg); list-style: disc; color: var(--color-text-light);">
+                <li style="margin-bottom: var(--space-xs);">Engaging Bible teaching relevant to teenage life</li>
+                <li style="margin-bottom: var(--space-xs);">Small group discussions and mentoring</li>
+                <li style="margin-bottom: var(--space-xs);">Games, activities, and social events</li>
+                <li style="margin-bottom: var(--space-xs);">Worship nights and retreats</li>
+                <li>Community service and mission opportunities</li>
+              </ul>
+            </div>
+
+            <div style="margin-top: var(--space-lg);">
+              <h4 style="margin-bottom: var(--space-sm);">When We Meet</h4>
+              <p style="margin-bottom: var(--space-sm);"><strong>Friday Youth Night:</strong> 7:00pm - 9:00pm</p>
+              <p style="margin-bottom: 0;"><strong>Sunday Morning:</strong> Youth join the main service or have their own group</p>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80" alt="Youth group gathering" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="section bg-neutral" id="safety">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-header__title">Find Us</h2>
-          <p class="section-header__subtitle">We're located in the heart of Aberdeen</p>
+          <h2 class="section-header__title">Your Child's Safety</h2>
+          <p class="section-header__subtitle">We take safeguarding seriously. Here's how we keep your children safe.</p>
         </div>
-        
-        <div class="map-container">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34847.44891465!2d-2.1272!3d57.1497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4884051d0d8c5c3b%3A0x8b5c5c5c5c5c5c5c!2sAberdeen%2C%20UK!5e0!3m2!1sen!2suk!4v1234567890"
-            width="100%" 
-            height="400" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Oasis Church Aberdeen location map">
-          </iframe>
+
+        <div class="grid-4">
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Background Checks</h3>
+            <p class="info-card__text">All volunteers undergo PVG (Protecting Vulnerable Groups) checks before serving.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Trained Leaders</h3>
+            <p class="info-card__text">Our team receives regular safeguarding training and follows strict protocols.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Secure Check-In</h3>
+            <p class="info-card__text">Children are signed in and out by parents/guardians using our secure system.</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <h3 class="info-card__title">Clear Policies</h3>
+            <p class="info-card__text">We follow comprehensive child protection policies in line with Scottish guidelines.</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-xl">
+          <p class="text-light">For more information about our safeguarding policies, please <a href="contact.html">contact us</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leaders Section -->
+    <section class="section" id="leaders">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Meet Our Leaders</h2>
+          <p class="section-header__subtitle">Dedicated volunteers who love investing in the next generation</p>
+        </div>
+
+        <div class="grid-3" style="max-width: 900px; margin: 0 auto;">
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=80" alt="Emma MacLeod" class="team-card__image">
+            <h3 class="team-card__name">Emma MacLeod</h3>
+            <p class="team-card__role">Children's Director</p>
+            <p class="team-card__bio">Emma oversees all our children's programs and has a passion for helping kids discover God's love.</p>
+          </div>
+
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80" alt="David Thompson" class="team-card__image">
+            <h3 class="team-card__name">David Thompson</h3>
+            <p class="team-card__role">Youth Pastor</p>
+            <p class="team-card__bio">David leads our youth ministry with energy and authenticity, creating space for teens to grow in faith.</p>
+          </div>
+
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&q=80" alt="Rachel Murray" class="team-card__image">
+            <h3 class="team-card__name">Rachel Murray</h3>
+            <p class="team-card__role">Youth Leader</p>
+            <p class="team-card__bio">Rachel brings creativity and warmth to our youth team, helping young people feel welcomed and valued.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-primary text-white text-center">
+      <div class="container">
+        <h2 style="color: var(--color-white);">Register Your Child</h2>
+        <p class="mb-xl cta-text">We'd love to welcome your family! Get in touch to learn more about our programs or to register your child.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-md); justify-content: center;">
+          <a href="contact.html" class="btn btn--outline-light btn--lg">Contact Us</a>
+          <a href="new-here.html" class="btn btn--secondary btn--lg">Plan Your Visit</a>
         </div>
       </div>
     </section>
