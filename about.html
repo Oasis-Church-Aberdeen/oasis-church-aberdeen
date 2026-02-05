@@ -48,7 +48,20 @@
               <li><a href="calendar.html" class="nav__dropdown-link">Events Calendar</a></li>
             </ul>
           </li>
-          <li><a href="giving.html" class="nav__link">Give</a></li>
+          <li class="nav__item--dropdown">
+            <a href="giving.html" class="nav__link">Give</a>
+            <ul class="nav__dropdown">
+              <li><a href="giving.html" class="nav__dropdown-link">Giving</a></li>
+              <li><a href="partner.html" class="nav__dropdown-link">Volunteer</a></li>
+            </ul>
+          </li>
+          <li class="nav__item--dropdown">
+            <a href="facility-hire.html" class="nav__link">Facilities</a>
+            <ul class="nav__dropdown">
+              <li><a href="facility-hire.html" class="nav__dropdown-link">Facility Hire</a></li>
+              <li><a href="community-facilities.html" class="nav__dropdown-link">Community Facilities</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html" class="nav__link">Contact</a></li>
         </ul>
         <a href="new-here.html" class="btn btn--primary">I'm New</a>
@@ -92,7 +105,20 @@
           <li><a href="calendar.html" class="mobile-nav__dropdown-link">Events Calendar</a></li>
         </ul>
       </li>
-      <li class="mobile-nav__item"><a href="giving.html" class="mobile-nav__link">Give</a></li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">Give</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="giving.html" class="mobile-nav__dropdown-link">Giving</a></li>
+          <li><a href="partner.html" class="mobile-nav__dropdown-link">Volunteer</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item mobile-nav__item--dropdown">
+        <a href="#" class="mobile-nav__link">Facilities</a>
+        <ul class="mobile-nav__dropdown">
+          <li><a href="facility-hire.html" class="mobile-nav__dropdown-link">Facility Hire</a></li>
+          <li><a href="community-facilities.html" class="mobile-nav__dropdown-link">Community Facilities</a></li>
+        </ul>
+      </li>
       <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
     </ul>
     <div class="mobile-nav__cta">
@@ -176,38 +202,45 @@
         
         <div class="grid-4">
           <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&q=80" alt="Pastor Will Hanekom" class="team-card__image">
+            <img src="images/silhouette-placeholder.svg" alt="Pastor Will Hanekom" class="team-card__image">
             <h3 class="team-card__name">Will Hanekom</h3>
             <p class="team-card__role">Lead Pastor</p>
             <p class="team-card__bio">Will has led Oasis Church since 2010. He is passionate about teaching the Bible and seeing people grow in their faith.</p>
           </div>
           
           <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80" alt="Jayne Smith" class="team-card__image">
+            <img src="images/silhouette-placeholder.svg" alt="Jayne Smith" class="team-card__image">
             <h3 class="team-card__name">Jayne Smith</h3>
             <p class="team-card__role">Children Church Leader</p>
             <p class="team-card__bio">Jayne leads our children's church with creativity and care, helping young ones grow in their faith journey.</p>
           </div>
           
           <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&q=80" alt="Evelyn Shearman" class="team-card__image">
+            <img src="images/silhouette-placeholder.svg" alt="Evelyn Shearman" class="team-card__image">
             <h3 class="team-card__name">Evelyn Shearman</h3>
             <p class="team-card__role">Treasurer</p>
             <p class="team-card__bio">Evelyn manages the church finances with diligence and integrity, ensuring good stewardship of our resources.</p>
           </div>
           
           <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&q=80" alt="Anne Mieke" class="team-card__image">
-            <h3 class="team-card__name">Anne Mieke</h3>
+            <img src="images/silhouette-placeholder.svg" alt="Annemieke DeVries" class="team-card__image">
+            <h3 class="team-card__name">Annemieke DeVries</h3>
             <p class="team-card__role">Bible Study Leader</p>
-            <p class="team-card__bio">Anne Mieke leads our Bible study groups, helping people dig deeper into God's Word and grow in understanding.</p>
+            <p class="team-card__bio">Annemieke leads our Bible study groups, helping people dig deeper into God's Word and grow in understanding.</p>
           </div>
           
           <div class="team-card">
-            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&q=80" alt="Fay Smith" class="team-card__image">
+            <img src="images/silhouette-placeholder.svg" alt="Fay Smith" class="team-card__image">
             <h3 class="team-card__name">Fay Smith</h3>
             <p class="team-card__role">Pastoral Care</p>
             <p class="team-card__bio">Fay provides compassionate pastoral care and support to our church family during life's joys and challenges.</p>
+          </div>
+          
+          <div class="team-card">
+            <img src="images/silhouette-placeholder.svg" alt="Carole Shearman" class="team-card__image">
+            <h3 class="team-card__name">Carole Shearman</h3>
+            <p class="team-card__role">Church Administrator</p>
+            <p class="team-card__bio">Carole keeps the church running smoothly, managing administration and ensuring everything is organised and welcoming.</p>
           </div>
         </div>
       </div>
@@ -234,10 +267,10 @@
           </a>
           <p class="footer__description">A welcoming community of Christ-followers in Aberdeen, Scotland.</p>
           <div class="footer__social">
-            <a href="https://facebook.com" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <a href="https://www.facebook.com/OasisChristianChurchAberdeen" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
-            <a href="https://instagram.com" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <a href="https://www.instagram.com/Oasis_christian_fellowship" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </a>
             <a href="https://youtube.com" class="footer__social-link" aria-label="YouTube" target="_blank" rel="noopener">

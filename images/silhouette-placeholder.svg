@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="#e5e7eb"/>
+  
+  <!-- Silhouette head -->
+  <circle cx="150" cy="100" r="45" fill="#9ca3af"/>
+  
+  <!-- Silhouette shoulders and torso -->
+  <path d="M 105 145 Q 105 160 120 175 L 180 175 Q 195 160 195 145 Z" fill="#9ca3af"/>
+</svg>
