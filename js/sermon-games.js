@@ -23,6 +23,15 @@
   function init() {
     if (!gameContainer) return;
     
+    // Check if a specific game was requested via URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const requestedGame = urlParams.get('game');
+    const validGames = ['quiz', 'crossword', 'wordsearch', 'fillblanks', 'memoryverse'];
+    
+    if (requestedGame && validGames.includes(requestedGame)) {
+      currentGame = requestedGame;
+    }
+    
     // Load game data
     loadGameData();
     
@@ -47,8 +56,14 @@
       // Update sermon info in header
       updateSermonInfo();
       
-      // Load default game (quiz)
-      loadGame('quiz');
+      // Load the requested or default game
+      loadGame(currentGame);
+      
+      // Update button states for pre-selected game
+      gameSelectorBtns.forEach(btn => {
+        btn.classList.toggle('game-selector__btn--active', btn.dataset.game === currentGame);
+        btn.setAttribute('aria-selected', btn.dataset.game === currentGame);
+      });
     } catch (error) {
       console.error('Failed to load game data:', error);
       showError('Failed to load game data. Please try again later.');
@@ -89,10 +104,10 @@
     // Load the selected game
     loadGame(game);
     
-    // Scroll to game section
-    const gameSection = document.getElementById('game-section');
-    if (gameSection) {
-      gameSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Scroll to keep Choose a Game section and game area visible (hide CTA below)
+    const chooseGameHeader = document.querySelector('.section:has(.game-selector)');
+    if (chooseGameHeader) {
+      chooseGameHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 
